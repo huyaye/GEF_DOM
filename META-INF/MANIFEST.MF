@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SimpleModelGef
+Bundle-SymbolicName: SimpleModelGef;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: simplemodelgef.Activator
+Bundle-Vendor: S-Core
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.wst.sse.ui,
+ org.eclipse.gef,
+ org.eclipse.wst.xml.core,
+ org.eclipse.wst.sse.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
